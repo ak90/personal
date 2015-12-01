@@ -1,0 +1,30 @@
+.navigation{
+
+background-color: #8cc63e;
+line-height: 40px;
+padding-top: 20px;
+padding-bottom: 5px;
+text-align: center;
+
+}
+
+.header{
+
+padding-right: 20%;
+padding-left: 20%;
+padding-top: 50px;
+background-color: #8cc63e;
+text-align: center;
+color: #000000;
+height: 900px;
+}
+
+.navigation h1{
+
+	color: white;
+}
+
+.header p{
+
+	font-size: 2rem;
+}
