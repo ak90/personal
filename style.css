@@ -1,0 +1,56 @@
+.brandImg{
+	
+	max-width: 100%;
+
+}
+
+
+
+.cardTitle{
+	color: #d9534f;
+	background-color: #ffffff;
+	padding: 1em 0.25em !important;
+	margin: 0 !important;
+}
+
+.cardTitle h4{
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.less-space{
+	padding-left: 1.25em !important;
+	padding-right: 1.25em !important;
+	padding-top: 0.5em !important;
+	padding-bottom: 0.5em !important;
+
+}
+
+.less-space p{
+	margin-bottom: 0.5em !important;
+}
+
+.no-space{
+	margin: 0!important;
+	padding: 0 !important;
+}
+
+
+.text{
+	margin: 0 !important;
+	padding: 0.75em 0.25em !important;
+	font-size: 16px;
+	font-weight: 200;
+
+}
+
+.text p{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.row a{
+	color: #000000;
+}
