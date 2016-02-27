@@ -1,146 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	
+  
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Pendulm | Write & Retrieve</title>
-  <meta name="description" content="">
+  <title>GearUp | PickUp Sports Made Easy</title>
+  <meta name="description" content="A mobile application to help sports lovers find others in their neighbourhood, find locations to play sports and create games.">
   <meta name="author" content="">
-
+  <meta property="og:image" content="http://github.com/ak90/GearUp-Website/blob/master/Assets/img2.jpg?raw=true">
+  <meta name="twitter:url" content="https://github.com/ak90/GearUp-Website/blob/master/Assets/Img1-01.png">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@gearupapp">
+  <meta name="twitter:creator" content="@09tahska">
+  <meta name="twitter:title" content="GearUp | PickUp Sports Made Easy">
+  <meta name="twitter:description" content="A mobile application to help sports lovers find others in their neighbourhood, find locations to play sports and create games.">
+  <meta name="twitter:image" content="https://github.com/ak90/GearUp-Website/blob/master/Assets/img2.jpg?raw=true">
+  
+  <!-- Twitter Cards End -->
+  
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="Assets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!--Javascript -->
+
+  <!--script>
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+    })
+  </script-->
+
+  
+  
+
+
 
 </head>
-<body>
+<body style="background-color: #efefef">
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="twelve column" style="text-align:center; padding-top: 1em; padding-bottom:1em">
-        <img src="Logo(WhiteBG)-01.png" alt="Pendulm Logo" style="width:200px">
-      </div>
+<nav class="navbar navbar-light bg-danger">
+  <a href="#" class="pull-left">
+    <img style="max-height:40px" src="Assets/Logo-03.png">
+  </a>
+  <ul class="nav navbar-nav">
+    <li><a class="nav-item btn btn-secondary-outline pull-xs-right" type="submit">Get The App!</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="checkbox pull-right m-l-3">
+      <br>
+      <label>
+        <input type="checkbox" class="p-l-3"> Cricket  </input>
+      </label>
+      <label>
+        <input type="checkbox"> Basketball  </input>
+      </label>
+      <label>
+        <input type="checkbox"> Football  </input>
+      </label>
+      <label>
+        <input type="checkbox"> Running  </input>
+      </label>
+      <label>
+        <input type="checkbox"> Outdoor  </input>
+      </label>
+      <br><br>
     </div>
-  </div>
+  </div>  
+</div>
 
-  <div class="header">
-    <div class="container">
-      <div class="row">
-        <div class="twelve column" style="text-align: center; padding-top:5em; padding-bottom:5em">
-          <h1>Have Something To Write?</h1>
-          <button class="button" style="font-size: 3em; color: #fff; letter-spacing: 0.2em">Swing It By Pendulm!</button>
-          <h5>(A simple & anonymous messaging and searching tool)</h5>
-        </div>  
-      </div>
-    </div>
-  </div>
+<div class="container">
+  <div class="row">
+    
+    <a href="#">
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
 
-  <div class="middle">
-    <div class="container">
-      <div class="row">
-        <div class="twelve column">
-          <h2>Why Pendulm.</h1><br>
-          <h5>Comp<span style="color:#88d0e6">l</span>ete anonymity. No sign up.</h5>
-          <h5>Messages se<span style="color:#88d0e6">l</span>f destruct in 7 days.</h5>
-          <h5>Searchabi<span style="color:#88d0e6">l</span>ity. Discover messages around you.</h5>
-          <h5>Beautifu<span style="color:#88d0e6">l</span>. Representation of messages.</h5>
-          <h5>No ads. Free for <span style="color:#88d0e6">l</span>ife.</h5>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="pre-footer">
-    <div class="container">
-      <div class="row">
-        <div class="twelve column">
-          <h2>Use Cases</h2>
-        </div>
-      </div>
-
-      <div class="row">
-          <div class="four columns">
-            <br>
-            <h5>Quick notes, anywhere.</h5>
-            <img src="CloudMsg1-01.png" alt="Quick Notes" style="width:80px">
-            <h6>Jot down your ideas</h6>
-            <h6>Send it out to the web</h6>
-            <h6>Use search and recover</h6>
-          </div>
-
-          <div class="four columns">
-            <br>
-            <h5>Collaborate, efficiently.</h5>
-            <img src="Collaborate-01.png" alt="Collaborate" style="width:80px">
-            <br>
-            <h6>Choose a keyword</h6>
-            <h6>Add keyword to each message</h6>
-            <h6>Use search to recover & add</h6>
-          </div>
-
-          <div class="four columns">
-            <br>
-            <h5>Review,<br>instantly.</h5>
-            <img src="Review-01.png" alt="review" style="width:80px">
-            <br>
-            <h6>Choose a keyname</h6>
-            <h6>Reviewers message with name</h6>
-            <h6>Use search to recover & display</h6>
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
           </div>
       </div>
     </div>
-  </div>
+    </a>
 
-  <div class="footer">
-    <div class="container">
-      <form>
-        <div class="row">
-          <div class="six columns">
-            <label for="exampleEmailInput">Your email</label>
-            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-          
-          
-        
-        <label for="exampleMessage">Message</label>
-        <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
-        <label class="example-send-yourself-copy">
-        <input type="checkbox">
-        <span class="label-body">Send a copy to yourself</span>
-        </label>
-        <input class="button-primary" type="submit" value="Submit">
-      </form>
+    <a href="#">
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
 
-
-        </div>
-
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
+          </div>
       </div>
     </div>
+    </a>
+    
+    <a href="#">
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
+
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
+          </div>
+      </div>
+    </div>
+    </a>
+      
   </div>
+  <br>
+</div>
 
+<div class="container">
+  <div class="row">
+  
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
 
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
+          </div>
+      </div>
+    </div>
 
+    <a href="#">
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
 
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
+          </div>
+      </div>
+    </div>
+    </a>
+    
 
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
+          </div>
+      </div>
+    </div>
+      
+  </div>
+  <br>
+</div>
+
+<div class="container">
+  <div class="row">
+  
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
+
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
+          </div>
+      </div>
+    </div>
+
+    <a href="#">
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
+
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
+          </div>
+      </div>
+    </div>
+    </a>
+    
+
+    <div class="col-sm-4">
+      <div class="card">
+          <img class="brandImg" src="Assets/Basketball1.jpg" alt="Basketball">
+          <div class="card-block less-space">
+            <h5 class="card-title">3v3 Basketball Game!</h5>
+            <p>Activity: Basketball</p>
+            <p><i class="fa fa-map-marker"></i> Hotfut, Mundhwa, Pune</p>
+            <p><i class="fa fa-clock-o"></i> 24 Feb, (5PM to 6PM)</p>
+            <p><i class="fa fa-users"></i> 4/6
+            <progress class="progress progress-striped progress-warning" value="60" max="100">100%</progress></p>
+
+          </div>    
+          <!--div class="card-block">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div-->        
+          <div class="card-block less-space">
+            <button class="btn btn-danger btn-block">Join</button>          
+          </div>
+      </div>
+    </div>
+      
+  </div>
+</div>
+
 </body>
 </html>
